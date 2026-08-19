@@ -1,8 +1,8 @@
 class Arapuca < Formula
   desc "Cross-platform process sandbox with kernel-enforced isolation"
   homepage "https://github.com/sergio-correia/arapuca"
-  url "https://github.com/sergio-correia/arapuca/archive/refs/tags/v0.2.2.tar.gz"
-  sha256 "e6cefeff26ef161c8c991346814b75631fff09dda91d05f3a8818f2d650dea36" # Will need to be filled after creating the release
+  url "https://github.com/sergio-correia/arapuca/archive/refs/tags/v0.2.7.tar.gz"
+  sha256 "363427ec4502e015c956ec0af7e509af2ac7ee5376ae93418aabd149fab31d0d" # Will need to be filled after creating the release
   license "Apache-2.0"
   head "https://github.com/sergio-correia/arapuca.git", branch: "main"
 
