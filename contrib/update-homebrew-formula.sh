@@ -12,7 +12,7 @@ fi
 
 VERSION="$1"
 FORMULA_FILE="Formula/arapuca.rb"
-TARBALL_URL="https://github.com/sergio-correia/arapuca/archive/refs/tags/v${VERSION}.tar.gz"
+TARBALL_URL="https://github.com/LeGambiArt/arapuca/archive/refs/tags/v${VERSION}.tar.gz"
 TEMP_FILE=$(mktemp)
 
 echo "Downloading tarball for version ${VERSION}..."

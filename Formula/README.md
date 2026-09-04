@@ -12,35 +12,35 @@ To create the homebrew-arapuca tap repository:
    ```bash
    git clone https://github.com/YOUR_USERNAME/homebrew-arapuca.git
    cd homebrew-arapuca
-   
+
    # Copy the formula
    mkdir -p Formula
    cp /path/to/arapuca/Formula/arapuca.rb Formula/
-   
+
    # Create a README
    cat > README.md << 'EOF'
    # Homebrew Arapuca
-   
-   Homebrew tap for [arapuca](https://github.com/sergio-correia/arapuca) - a cross-platform process sandbox.
-   
+
+   Homebrew tap for [arapuca](https://github.com/LeGambiArt/arapuca) - a cross-platform process sandbox.
+
    ## Installation
-   
+
    ```bash
-   brew tap sergio-correia/arapuca
+   brew tap LeGambiArt/arapuca
    brew install arapuca
    ```
-   
+
    ## Development
-   
+
    Test the formula locally:
-   
+
    ```bash
    brew install --build-from-source Formula/arapuca.rb
    brew test arapuca
    brew audit --strict arapuca
    ```
    EOF
-   
+
    git add .
    git commit -m "Initial commit: Add arapuca formula"
    git push origin main
@@ -50,9 +50,9 @@ To create the homebrew-arapuca tap repository:
    ```bash
    # Use the provided script
    ./scripts/update-homebrew-formula.sh 0.2.1
-   
+
    # Or manually
-   wget https://github.com/sergio-correia/arapuca/archive/refs/tags/v0.2.1.tar.gz
+   wget https://github.com/LeGambiArt/arapuca/archive/refs/tags/v0.2.1.tar.gz
    shasum -a 256 v0.2.1.tar.gz
    ```
 
@@ -64,19 +64,19 @@ Install arapuca via Homebrew:
 
 ```bash
 # Add the tap
-brew tap sergio-correia/arapuca
+brew tap LeGambiArt/arapuca
 
 # Install
 brew install arapuca
 
 # Or in one command
-brew install sergio-correia/arapuca/arapuca
+brew install LeGambiArt/arapuca/arapuca
 ```
 
 ### Install from HEAD
 
 ```bash
-brew install --HEAD sergio-correia/arapuca/arapuca
+brew install --HEAD LeGambiArt/arapuca/arapuca
 ```
 
 ## What Gets Installed
@@ -140,6 +140,6 @@ brew uninstall arapuca
 
 ## Links
 
-- **Main repository**: https://github.com/sergio-correia/arapuca
+- **Main repository**: https://github.com/LeGambiArt/arapuca
 - **Homebrew documentation**: https://docs.brew.sh/Formula-Cookbook
-- **Issue tracker**: https://github.com/sergio-correia/arapuca/issues
+- **Issue tracker**: https://github.com/LeGambiArt/arapuca/issues

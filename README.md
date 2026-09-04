@@ -1,4 +1,4 @@
-# Homebrew tap formulae for [arapuca](https://github.com/sergio-correia/arapuca)
+# Homebrew tap formulae for [arapuca](https://github.com/LeGambiArt/arapuca)
 
 ```
 brew tap rjeffman/arapuca
